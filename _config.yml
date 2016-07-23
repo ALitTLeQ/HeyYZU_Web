@@ -1,0 +1,81 @@
+url: https://alittleq.github.io/
+
+# Site settings
+title: HeyYZU
+# email:
+description: HeyYZU, an app for YZU student.
+
+
+# Team names, titles and social links
+peopleRow1:
+- name: Erickson Juang
+  pic: 7bc81b728640a4917ec3b6625d16425e
+  position: Project Manager & Back-end Developer
+  social:
+    - title: facebook
+      url: fb.me/ChuangPingLuen
+    - title: github
+      url: github.com/bingluen
+    - title: linkedin
+      url: tw.linkedin.com/in/bingluen
+    - title: home
+      url: bingluen.tw
+
+- name: Ren Chen
+  pic:
+  position: UI / UX Designer
+  social:
+    - title: github
+      url: github.com/ALitTLeQ
+
+peopleRow2:
+- name: Wu Guan Xian
+  pic: 13570825e48880d1a13e0a2f228cf338
+  position: Android Developer
+  social:
+    - title: facebook
+      url: fb.me/eric0324
+    - title: github
+      url: github.com/eric0324
+    - title: linkedin
+      url: tw.linkedin.com/in/eric0324
+    - title: home
+      url: eircwu.asia
+
+- name: Andy Chean
+  pic:
+  position: iOS Developer
+  social:
+    - title: facebook
+      url: fb.me/chenkaijia
+    - title: github
+      url: github.com/singbird81
+
+- name: ALitTLeQ
+  pic:
+  position: Python Developer
+  social:
+    - title: github
+      url: github.com/ALitTLeQ
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+#social:
+#  - title: twitter
+#    url: http://twitter.com/jekyllrb
+#  - title: facebook
+#    url:
+#  - title: stack-overflow
+#    url: http://stackoverflow.com/questions/tagged/jekyll
+#  - title: bitbucket
+#    url: http://bitbucket.org/jekyll
+#  - title: github
+#    url: http://github.com/jekyll
+
+# Postal address (add as many lines as necessary)
+# address:
+#  - line: 3481 Melrose Place
+#  - line: Beverly Hills, CA 90210
+
+# Build settings
+markdown: kramdown
+permalink: pretty
