@@ -61,6 +61,12 @@ layout: style
     overflow: hidden;
 }
 
+.logo-move{
+    z-index: 999;
+    position: absolute;
+    left: 0px;
+}
+
 .download-btn{
     margin-top: 30px;
 }
@@ -71,4 +77,17 @@ layout: style
 
 .download-btn a img{
     height: 60px;
+}
+
+.bootstrap-select .btn{
+    padding: 20px;
+   
+}
+
+.bootstrap-select .dropdown-menu{
+    margin-top: 20px;
+}
+
+.bootstrap-select .dropdown-menu .text{
+    line-height: 30px;
 }

@@ -35,3 +35,9 @@ $('div.modal').on('show.bs.modal', function() {
 		}
 	}
 });
+
+
+/* Prevent disabled links from causing a page reload */
+$("li.disabled a").click(function() {
+    event.preventDefault();
+});

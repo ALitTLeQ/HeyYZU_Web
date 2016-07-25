@@ -10,19 +10,20 @@ $(function() {
             // get values from FORM
             var name = $("input#name").val();
             var email = $("input#email").val();
-            var phone = $("input#phone").val();
+            var type = $("#typeList").find(":selected").text();
             var message = $("textarea#message").val();
+            
             var firstName = name; // For Success/Failure Message
             // Check for white space in name for Success/Fail message
             if (firstName.indexOf(' ') >= 0) {
                 firstName = name.split(' ').slice(0, -1).join(' ');
             }
             $.ajax({
-                url: "././mail/contact_me.php",
-                type: "POST",
+                url: "https://script.google.com/macros/s/AKfycbxP_l67GOyCpt0OcD55ElMjTrt6MUdtvHcr7ZzVVqKW2iTwq-A/exec",
+                type: "GET",
                 data: {
                     name: name,
-                    phone: phone,
+                    type: type,
                     email: email,
                     message: message
                 },
@@ -63,8 +64,14 @@ $(function() {
     });
 });
 
-
 /*When clicking on Full hide fail/success boxes */
 $('#name').focus(function() {
     $('#success').html('');
 });
+
+
+$('.selectpicker').selectpicker({
+    width : '100%',
+    size : 1
+});
+
