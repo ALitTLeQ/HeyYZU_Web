@@ -68,12 +68,20 @@ layout: style
     margin-top: 30px;
 }
 
-.download-btn a:last-child{
-    padding-left: 10px;
-}
 
 .download-btn a img{
     height: 60px;
+    width: 170px;
+}
+
+@media(min-width:768px) {
+    .download-btn a:last-child{
+    padding-left: 10px;
+    }
+        
+}
+
+
 }
 
 .bootstrap-select .btn{
