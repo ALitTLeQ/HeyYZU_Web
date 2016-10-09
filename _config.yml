@@ -1,5 +1,8 @@
 url: https://alittleq.github.io/
-baseurl: /HeyYZU_Web/
+
+#comment out when push to github
+baseurl: /HeyYZU_Web
+
 # Site settings
 title: HeyYZU
 # email:
