@@ -31,17 +31,34 @@ layout: style
 }
 
 #overview .section .phone-image{
+    height: 100vh;
+    
+}
+
+#overview .section .phone-image img{
     height: 80vh;
 }
 
+
 @media(min-width:768px) {
+    #overview .section{
+ 
+    }
     #overview .section .outer{
         height: 100vh;
-        /*border:1px solid #000;*/
     }
     #overview .section .phone-image{
+        height: 100vh;
+        position: relative;
+        
+    }
+    #overview .section .phone-image img{
+        width: auto;
         height: 80vh;
-        margin-top: 10vh;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
     }
 
 }
@@ -51,6 +68,13 @@ layout: style
     padding: 0px;
     opacity: 0;
     transition: opacity .5s;
+    position: absolute;
+    left: 50%;
+    margin-left: -50px;
+}
+
+.title-img img{
+    width: 100px;
 }
 
 .logo-shrink{
@@ -75,14 +99,21 @@ layout: style
 }
 
 @media(min-width:768px) {
+    .title-img{
+        position: relative;
+        margin-left: 0;
+        left: 0;
+    }
+    .title-img img{
+        width: 120px;
+    }
+    
     .download-btn a:last-child{
-    padding-left: 10px;
+        padding-left: 10px;
     }
         
 }
 
-
-}
 
 .bootstrap-select .btn{
     padding: 20px;
