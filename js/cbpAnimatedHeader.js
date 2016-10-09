@@ -23,23 +23,16 @@ var cbpAnimatedHeader = (function() {
 			}
 		}, false );
 	}
-    /*
-    $("#logo").animate({scrollTop :0}, '500',function(){
-         $("#logo").addClass("logo-move");
-    });
-    */
 	function scrollPage() {
 		var sy = scrollY();
 		
 		if ( sy >= changeHeaderOn ) {
-            //classie.add( logo, 'logo-shrink' );
-            classie.add( logo, 'logo-move' );
+            classie.add( logo, 'logo-shrink' );
 			classie.add( header, 'navbar-shrink' );
 		}
 		else {
             
-            //classie.remove( logo, 'logo-shrink' );
-            classie.remove( logo, 'logo-move' );
+            classie.remove( logo, 'logo-shrink' );
 			classie.remove( header, 'navbar-shrink' );
             
 		}
