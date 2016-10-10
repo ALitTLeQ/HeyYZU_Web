@@ -31,7 +31,8 @@ layout: style
 }
 
 #overview .section .phone-image{
-    height: 90vh;
+    height: 100%;
+    padding-bottom: 70px;
     
 }
 
