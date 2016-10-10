@@ -67,11 +67,11 @@ layout: style
     transition: opacity .5s;
     position: absolute;
     left: 50%;
-    margin-left: -50px;
+    margin-left: -55px;
 }
 
 .title-img img{
-    width: 100px;
+    width: 110px;
 }
 
 .logo-shrink{
