@@ -47,16 +47,16 @@ layout: style
     }
     
     #overview .section .outer{
-        height: 70vh;
+        height: 85vh;
     }
     #overview .section .phone-image{
-        height: 70vh;
+        height: 85vh;
         position: relative;            
     }
     #overview .section .phone-image img{
         max-width: 100%;
         width: auto;
-        height: 80%;
+        height: 85%;
         position: absolute;
         left: 50%;
         top: 50%;
