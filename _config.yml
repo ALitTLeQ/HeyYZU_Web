@@ -6,7 +6,7 @@ baseurl: /HeyYZU_Web
 # Site settings
 title: HeyYZU
 # email:
-description: HeyYZU, an app for YZU student.
+description: YZU Portal in your pocket.
 
 
 # Team names, titles and social links
@@ -25,7 +25,7 @@ peopleRow1:
       url: http://bingluen.tw
 
 - name: Ren Chen
-  pic:
+  pic: 9ae1e97f3759b8c4d453b7a006b74770
   position: UI / UX Designer
   social:
     - title: github
@@ -46,7 +46,7 @@ peopleRow2:
       url: https://eircwu.asia
 
 - name: Andy Chean
-  pic:
+  pic: c38947a608327a0d657e09df7e193bb0
   position: iOS Developer
   social:
     - title: facebook
@@ -55,9 +55,11 @@ peopleRow2:
       url: https://github.com/singbird81
 
 - name: ALitTLeQ
-  pic:
+  pic: 47419b6d30fa3c1cb5d96dc0cfc5657a
   position: Python / Website Developer
   social:
+    - title: facebook
+      url: https://fb.me/ALittleQ.Wang
     - title: github
       url: https://github.com/ALitTLeQ
 
